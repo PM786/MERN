@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Looping Examples</h2>
+    <script type="text/JavaScript">
+        var i=0,n=10;
+        document.write("<br/> using while loop")
+        while(i<=n){
+            document.write("<br/> value of i is "+i)
+            i++;
+        }
+        var j=0, m=10;
+        document.write("<br/> using do while loop")
+        do{
+            document.write("<br/> value of j is "+j)
+            j++;
+        } while(j<=m)
+        document.write("<br/> using for loop")
+        for(var num = 0, num<=10; num++){
+        document.write("<table border=1>")
+            for(var k=0,o=10; k<=o; k++){
+            document.write("<tr><td>"+num+"*"+k+"="+num*k+"</td></tr>")
+        }
+    }
+        document.write("</table")
+    </script>
+</body>
+</html>

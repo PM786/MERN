@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+   // var a=10;
+   // var b=20;
+    var sum=a+b;
+        function info(){
+            alert("Event fired...single click")
+        }
+         function info1(){
+            alert("Event fired...double click")
+           // alert("sum of a and b = "+sum)
+        }
+        function abc(){
+            console.log("onkeydown fired...")
+        }
+        function xyz(){
+            console.log("onkeyup fired")
+        }
+    </script>
+</head>
+<body>
+    <h2>Event Handling Example</h2>
+    <input type="button" value="Single click"onclick="info()"/><br/>
+    <input type="button" value="Double click"ondblclick="info1()"/><br/>
+    <input type="text" onkeydown="abc()" onkeyup="xyz()"/>
+</body>
+</html>
